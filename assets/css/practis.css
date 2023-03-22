@@ -1,0 +1,113 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h1 {
+  display: inline-block;
+  color: white;
+}
+h3 {
+  display: inline-block;
+  color: white;
+}
+h4 {
+    color: white;
+   
+}
+
+
+.wrapper {
+  width: 100%;
+}
+.card1 {
+  padding: 30px;
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  border-radius: 5px;
+  position: relative;
+}
+.card1::before, .card1::after {
+  content: "";
+  width: 230px;
+  height: 230px;
+  background-color: white;
+  border-radius: 50%;
+  opacity: 50%;
+  position: absolute;
+  
+}
+.card1::before{
+  top: 150px;
+  left: 170px;
+}
+.card1::after{
+  bottom:50px;
+  left: 250px;
+}
+
+.icon {
+  height: 25px;
+  color: white;
+  position: absolute;
+  top: 40px;
+ right: 40px;
+
+}
+.card2 {
+  padding: 30px;
+   display: inline-block;
+  width: 300px;
+  height: 200px;
+   background-image: linear-gradient(45deg, #fbda61 0%, #ff5acd 100%);
+  border-radius: 5px;
+  position: relative;
+}
+.card2::before, .card2::after {
+  content: "";
+  width: 230px;
+  height: 230px;
+    background-color: white;
+  border-radius: 50%;
+  opacity: 50%;
+  position: absolute;
+  
+}
+.card2::before{
+  top: 150px;
+  left: 170px;
+}
+.card2::after{
+  bottom:50px;
+  left: 250px;
+}
+
+.card3 {
+  padding: 30px;
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  background-image: linear-gradient(45deg, #08aeea 0%, #2af598 100%);
+  border-radius: 5px;
+  position: relative;
+}
+.card3::before, .card3::after {
+  content: "";
+  width: 230px;
+  height: 230px;
+  background-color: white;
+  border-radius: 50%;
+  opacity: 50%;
+  position: absolute;
+  
+}
+.card3::before{
+  top: 150px;
+  left: 170px;;
+}
+.card3::after{
+  bottom:50px;
+  left: 250px;
+}
+
+
